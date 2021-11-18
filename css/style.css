@@ -27,7 +27,7 @@ main {
     width: 500px;
     height: 500px;
     margin: 20px auto;
-    border: 1px solid black;
+   
 }
 
 .container-square::after{
@@ -38,10 +38,6 @@ main {
 
 .square {
     float: left;
-    /* width: calc(100% / 10);  */
-    /* sarà poi data dinamicamente */
-    /* height: calc(100% / 10); */
-     /* sarà poi data dinamicamente */
     border: 1px solid black;
     cursor: pointer;
     display: flex;
@@ -55,5 +51,4 @@ main {
 
 #play{
     padding: 5px 5px;
-
 }
