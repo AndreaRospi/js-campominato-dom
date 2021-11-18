@@ -7,13 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campo Minato</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
     <header>
         <div class="container">
-            <h1>Campo Minato</h1>
+            <h1>
+                Campo Minato
+                <i class="fas fa-bomb"></i>
+
+            </h1>
             <div class="toolbar">
                 <label for="level">Difficoltà: </label>
                 <select id="level">
@@ -31,6 +38,7 @@
             <!-- <div class="square">1</div> -->
 
         </div>
+        <p id="lose"></p>
     </main>
 
     <script src="js/script.js"></script>
