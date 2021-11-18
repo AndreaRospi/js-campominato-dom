@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    height: 70px;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* main */
+main {
+    background-color: #7fffd4;
+}
+
+.container-square {
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.container-square::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.square {
+    float: left;
+    /* width: calc(100% / 10);  */
+    /* sarà poi data dinamicamente */
+    /* height: calc(100% / 10); */
+     /* sarà poi data dinamicamente */
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected {
+    background-color: lightskyblue;
+}
+
+#play{
+    padding: 5px 5px;
+
+}
